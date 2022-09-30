@@ -1,6 +1,6 @@
 import React from "react";
 import { useTheme } from "@mui/styles";
-import { Grid } from "@mui/material";
+import { Grid, Link } from "@mui/material";
 import { Container } from "@mui/system";
 import {
   CommonImageLink,
@@ -12,21 +12,21 @@ const techStack = [
   {
     id: 1,
     href: "https://reactjs.org/",
-    src: "/assets/react.png",
+    src: "./assets/react.png",
     alt: "React",
     sx: { width: 50 },
   },
   {
     id: 2,
     href: "https://mui.com/",
-    src: "/assets/material-ui.png",
+    src: "./assets/material-ui.png",
     alt: "Material-Ui",
     sx: { width: 50 },
   },
   {
     id: 3,
     href: "https://www.flaticon.com/free-icons/atom",
-    src: "/assets/flaticon.png",
+    src: "./assets/flaticon.png",
     alt: "Flaticons",
     sx: { width: 50 },
   },
@@ -41,6 +41,7 @@ export default function Footer() {
           color: "#fff",
           background:
             "linear-gradient(180deg, #121212 16.15%, #993000 100%), #121212",
+          fontFamily: "Kanit",
         }}
       >
         <Container maxWidth="lg">
@@ -49,7 +50,7 @@ export default function Footer() {
               <CommonSubHeading
                 pageTitle={"ConvictXX's Dream"}
               ></CommonSubHeading>
-              <Grid item xs={8}>
+              <Grid item xs={10}>
                 <CommonParaText
                   text={
                     "The dream of an ambitious little kid turned into reality. I have wanted to build my custom pc since school. It’s tough for a middle-class boy even to lay the idea before his parents. Ultimately, I made it happen once I was capable enough to start fulfilling my bucket list."
@@ -84,14 +85,15 @@ export default function Footer() {
             <Grid item xs={12} textAlign="center" style={{ marginBottom: 10 }}>
               <span>
                 © Designed & Developed by{" "}
-                <a
-                  href="https://www.munindrasoni.com"
+                <Link
                   rel="noreferrer"
                   target="_blank"
+                  underline="hover"
+                  href="https://www.munindrasoni.com"
                 >
                   {" "}
                   Munindra ZInzuvadia{" "}
-                </a>{" "}
+                </Link>
                 <small>(Breckenridge Solutions)</small>
               </span>
             </Grid>

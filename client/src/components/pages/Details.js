@@ -39,28 +39,28 @@ const useStyles = makeStyles((theme) => ({
 let details = [
   {
     id: "1",
-    src: "/assets/processor.png",
+    src: "./assets/processor.png",
     alt: "Intel i5 12600K 10 Cores (16 Threads) CPU",
     detailsText: "10 Cores (16 Threads)",
     subDetailsText: "Intel 12th gen CPU",
   },
   {
     id: "2",
-    src: "/assets/gpu.png",
+    src: "./assets/gpu.png",
     alt: "EVGA NVIDIA GeForce RTX 3070 Ti GPU",
     detailsText: "RTX Ti series GPU",
     subDetailsText: " Nvidia 3070 Ti",
   },
   {
     id: "3",
-    src: "/assets/ram.png",
+    src: "./assets/ram.png",
     alt: "Corsair Vengance RGB 16GB DDR4 3600 MHz RAM",
     detailsText: "16GB DDR4 Memory",
     subDetailsText: "3600 MHz",
   },
   {
     id: "4",
-    src: "/assets/cooling-fan.png",
+    src: "./assets/cooling-fan.png",
     alt: "NZXT Kraken x53 RGB CPU Liquid Cooler",
     detailsText: "Kraken x53 RGB ",
     subDetailsText: "CPU Liquid Cooler",
@@ -70,7 +70,7 @@ let details = [
 let detailsImages = [
   {
     id: "1",
-    src: "/assets/details1.png",
+    src: "./assets/details1.png",
     alt: "NZXT Kraken x53 Cooling Head",
     width: 300,
     left: "260px",
@@ -82,7 +82,7 @@ let detailsImages = [
   },
   {
     id: "2",
-    src: "/assets/details3.png",
+    src: "./assets/details3.png",
     alt: "Corsair Vengance PRO RBG RAM 16GB 3600 MHz",
     width: 250,
     left: "260px",
@@ -93,7 +93,7 @@ let detailsImages = [
   },
   {
     id: "3",
-    src: "/assets/details2.png",
+    src: "./assets/details2.png",
     alt: "EVGA GEFORCE RTX 3070 Ti GPU",
     width: 200,
     left: "470px",

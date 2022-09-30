@@ -98,7 +98,7 @@ export default function Header() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <img
-            src={"/assets/banner.png"}
+            src={"./assets/banner.png"}
             alt="NZXT H510Flow"
             className={classes.heroImage}
           />
